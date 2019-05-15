@@ -7,15 +7,19 @@
  4.  HashMap
 
 **Tree-**
-	 5. Binary Search Tree
-	 6. Red Black Tree
-	 7. AVL Tree
-	 8. Tries Tree
+
+ 1. Binary Search Tree
+ 2. Red Black Tree
+ 3. AVL Tree
+ 4. Tries Tree
 		Explanation: [Understand Tries Base CS Vadehi](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
- 9. Bredth First Search
- 10. Depth First Search 
- 11. 
+ 5. Bredth First Search
+ 6. Depth First Search 
+
  **Graphs-**
+
+ 7. List item
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUxMDE5MjJdfQ==
+eyJoaXN0b3J5IjpbLTE2MDYwNDkyNzVdfQ==
 -->
