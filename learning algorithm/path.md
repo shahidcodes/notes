@@ -8,8 +8,11 @@
 **Tree and Graphs-**
  5. Binary Search Tree
  6. Red Black Tree
- 7. 
+ 7. AVL Tree
+ 8. Tries Tree
+		Explanation: [
+Understand Tries Base CS Vadehi](https://medium.com/basecs/trying-to-understand-tries-3ec6bede0014)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTY4MjAxMF19
+eyJoaXN0b3J5IjpbMTkyMTkyNTQ1Nl19
 -->
