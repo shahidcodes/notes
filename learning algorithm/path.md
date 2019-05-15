@@ -18,8 +18,7 @@
 
  **Graphs-**
 
- 7. List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYwNDkyNzVdfQ==
+eyJoaXN0b3J5IjpbMTU2NzI0MzY2NV19
 -->
