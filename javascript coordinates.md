@@ -49,7 +49,7 @@ field.clientHeight
 To draw under mouse or any element we need to set a trigger when mouse is hovered on that element then we grab `{clientX, clientY}` from event and set draw under element position to `clientX, clientY`
 ```javascript
 let div = document.createElement("div");
-div.classList.add("draw-under", "gone");
+div.classList.add("draw-under", "gone"); // position: absolute etc
 document.body.append(div)
 document.addEventListener("mousemove", e=>{
   div.classList.remove("gone")
@@ -65,6 +65,6 @@ document.addEventListener("mouseleave", e=>{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MzQ2ODI1LC0xNjI2NDM4Mzg3LDE0MD
+eyJoaXN0b3J5IjpbNTQ0MDQ5ODI3LC0xNjI2NDM4Mzg3LDE0MD
 MyNTgxOF19
 -->
