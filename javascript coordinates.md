@@ -26,7 +26,7 @@ console.log(coords)
 ```
 ## Relative to document (pageX, pageY)
 
-In this the position is relative to Page/Document do on scroll it remains still.
+In this the position is relative to Page/Document do on scroll it remains same. We can use these to drawUnderElement etc.
 
 ```javascript
 const field = document.getElementById("field");
@@ -47,5 +47,5 @@ field.clientHeight
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTYzMDcxNCwxNDAzMjU4MThdfQ==
+eyJoaXN0b3J5IjpbLTE2MjY0MzgzODcsMTQwMzI1ODE4XX0=
 -->
