@@ -26,6 +26,8 @@ console.log(coords)
 ```
 ## Relative to document (pageX, pageY)
 
+In this the position is relative to Page/Document do on scroll it remains still.
+
 ```javascript
 const field = document.getElementById("field");
 // element width with border etc
@@ -41,8 +43,9 @@ field.clientWidth
 // height without border
 field.clientHeight
 ```
+![https://pbs.twimg.com/media/D67HxxkUYAARPNI.png](https://pbs.twimg.com/media/D67HxxkUYAARPNI.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzI1ODE4XX0=
+eyJoaXN0b3J5IjpbLTM4MTYzMDcxNCwxNDAzMjU4MThdfQ==
 -->
