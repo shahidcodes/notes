@@ -45,10 +45,26 @@ field.clientHeight
 ```
 ![https://pbs.twimg.com/media/D67HxxkUYAARPNI.png](https://pbs.twimg.com/media/D67HxxkUYAARPNI.png)
 
-##
+### How to draw mouse under? 
+To draw under mouse or any element we need to set a trigger when mouse is hovered on that element then we grab `{clientX, clientY}` from event and set draw under element position to `clientX, clientY`
+```javascript
+let div = document.createElement("div");
+div.classList.add("draw-under", "gone");
+document.body.append(div)
+document.addEventListener("mousemove", e=>{
+  div.classList.remove("gone")
+  const {clientX, clientY} = e;
+  console.log(clientX, clientY)
+  div.style.setProperty("top", `${clientY}px`);
+  div.style.setProperty("left", `${clientX}px`)
+});
+document.addEventListener("mouseleave", e=>{
+  div.classList.add("gone");
+});
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDk3OTUxMSwtMTYyNjQzODM4NywxND
-AzMjU4MThdfQ==
+eyJoaXN0b3J5IjpbMjc1MzQ2ODI1LC0xNjI2NDM4Mzg3LDE0MD
+MyNTgxOF19
 -->
