@@ -6,9 +6,10 @@ Types of Coordinate Systems you may deal in js-
  2. Relative to document (pageX, pageY)
 
 ## Relative to Browser Window
-To
+Method `elem.getBoundingClientRect()` returns the position of element edges from the parent window/iframe.
+
 ![http://javascript.info/article/coordinates/coords.png](http://javascript.info/article/coordinates/coords.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTA1MzIyMiwyMDY2ODMzNDcwXX0=
+eyJoaXN0b3J5IjpbLTEwMzY5MTExODMsMjA2NjgzMzQ3MF19
 -->
