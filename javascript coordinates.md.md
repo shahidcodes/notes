@@ -19,15 +19,19 @@ console.log(coords)
   "width": 220, // including border/offset. Same as field.offsetWidth
   "height": 170, // including offset/border. Same as field.offsetHeight
   "top": 100, // position from top without offset
-  "right": 248, // position from top without offset
+  "right": 248,
   "bottom": 270,
   "left": 28
 }
 ```
 ## Relative to document (pageX, pageY)
 
+```javascript
+const field = document.getElementById("field");
+// element width with border e
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDM0Mzc4MywtNDc0Mjk4OTAzLDIwNj
-Y4MzM0NzBdfQ==
+eyJoaXN0b3J5IjpbLTE0NDMxMzI0NDMsLTQ3NDI5ODkwMywyMD
+Y2ODMzNDcwXX0=
 -->
