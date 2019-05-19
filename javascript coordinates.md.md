@@ -28,10 +28,21 @@ console.log(coords)
 
 ```javascript
 const field = document.getElementById("field");
-// element width with border e
+// element width with border etc
+field.offsetWidth
+// element height with border etc
+field.offsetHeight
+// left border/offset width
+field.clientLeft
+// top border/offset width
+field.clientTop
+// width without border/offset
+field.clientWidth
+// height without border
+field.client
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDMxMzI0NDMsLTQ3NDI5ODkwMywyMD
+eyJoaXN0b3J5IjpbLTE0NzQ5MjcxMjcsLTQ3NDI5ODkwMywyMD
 Y2ODMzNDcwXX0=
 -->
