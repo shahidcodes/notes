@@ -39,10 +39,9 @@ field.clientTop
 // width without border/offset
 field.clientWidth
 // height without border
-field.client
-
+field.clientHeight
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQ5MjcxMjcsLTQ3NDI5ODkwMywyMD
+eyJoaXN0b3J5IjpbLTE3NDE2ODIyMTAsLTQ3NDI5ODkwMywyMD
 Y2ODMzNDcwXX0=
 -->
