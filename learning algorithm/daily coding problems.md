@@ -50,10 +50,15 @@ class Node {
 		this.right = right;
 	}
 }
+let root = new Node(
+	"root",
+	new Node("left", new Node("left.left"),
+	new Node("right")
+)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NTEwNTE4Myw2MzMzOTc4NzgsLTEzMz
-c1NzAyNjMsLTE3ODA4OTM4MDEsLTE0OTg2ODcwNDMsLTk3NTE5
-NzczNl19
+eyJoaXN0b3J5IjpbNDUwNjI5OTU1LDYzMzM5Nzg3OCwtMTMzNz
+U3MDI2MywtMTc4MDg5MzgwMSwtMTQ5ODY4NzA0MywtOTc1MTk3
+NzM2XX0=
 -->
