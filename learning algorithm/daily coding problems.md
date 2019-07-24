@@ -2,9 +2,8 @@
 
 #### 1. Given a list of numbers and a number `k`, return whether any two numbers from the list add up to `k`. 
 *asked by Google*
-
 Solution: 
-	1. [JSBIN](https://jsbin.com/nemeboxini/edit?js,console)
+	1. [JSBIN](https://jsbin.com/nemeboxini/edit?js,console)  
 	2. [jsben.ch](http://jsben.ch/hiASj)
 
 #### 2. Given an array of integers, return a new array such that each element at index `i` of the new array is the product of all the numbers in the original array except the one at `i`.
@@ -38,6 +37,6 @@ We can solve it two ways:
 2. Using built-in data structure and custom encoder and decoder. For example we can use dict to and write custom encoder to encode to string and decoder to convert back to `Node` object
 3. Using custom encoder/decoder for `Node` object. This is very difficult and requires one to have understanding  of lexer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA4OTM4MDEsLTE0OTg2ODcwNDMsLT
-k3NTE5NzczNl19
+eyJoaXN0b3J5IjpbLTE5OTc2NjYyOTksLTE3ODA4OTM4MDEsLT
+E0OTg2ODcwNDMsLTk3NTE5NzczNl19
 -->
