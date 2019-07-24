@@ -35,9 +35,9 @@ assert deserialize(serialize(node)).left.left.val == 'left.left'
 We can solve it two ways: 
 1. Using build-in data structure and modules such as json, and dict
 [https://repl.it/@ShahidKamal/tree-serializedeserialize-problem-asked-by-google](https://repl.it/@ShahidKamal/tree-serializedeserialize-problem-asked-by-google)
-2. Using built-in data structure and custom encoder and decoder. For example we can use dict to s
-3. Using custom encoder/decoder for Node object. This is very difficult and requires one to have understanding lexer.
+2. Using built-in data structure and custom encoder and decoder. For example we can use dict to and write custom encoder to encode to string and decoder to convert back to `Node` object
+3. Using custom encoder/decoder for `Node` object. This is very difficult and requires one to have understanding  of lexer.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzE0MDY5NSwtMTQ5ODY4NzA0MywtOT
-c1MTk3NzM2XX0=
+eyJoaXN0b3J5IjpbLTE3ODA4OTM4MDEsLTE0OTg2ODcwNDMsLT
+k3NTE5NzczNl19
 -->
