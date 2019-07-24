@@ -50,15 +50,19 @@ class Node {
 		this.right = right;
 	}
 }
+```
+The following test should pass:
+```javascript
 let root = new Node(
 	"root",
 	new Node("left", new Node("left.left")),
 	new Node("right")
 )
+console.assert(deserialize(serialize(node)).left.left.val == 'left.left')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDM5NjUxNiw2MzMzOTc4NzgsLTEzMz
-c1NzAyNjMsLTE3ODA4OTM4MDEsLTE0OTg2ODcwNDMsLTk3NTE5
-NzczNl19
+eyJoaXN0b3J5IjpbLTE2MjMzODYyOTksNjMzMzk3ODc4LC0xMz
+M3NTcwMjYzLC0xNzgwODkzODAxLC0xNDk4Njg3MDQzLC05NzUx
+OTc3MzZdfQ==
 -->
