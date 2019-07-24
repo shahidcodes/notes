@@ -5,9 +5,7 @@
 - `justify-content` align items on main axis
 - `align-self` it is same as `align-items` but it applies to flex-item individually
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM4MDgzNDYsLTE5ODY3OTMwNDBdfQ
-==
+eyJoaXN0b3J5IjpbMjA1NDgzNzM3MiwtMTg0MzgwODM0NiwtMT
+k4Njc5MzA0MF19
 -->
