@@ -18,6 +18,8 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 
 #### 3. Given the root to a binary tree, implement  `serialize(root)`, which serializes the tree into a string, and  `deserialize(s)`, which deserializes the string back into the tree.
 
+
+##### Python Way:   
 For example, given the following  `Node`  class
 ```python
 class Node:
@@ -38,7 +40,10 @@ We can solve it two ways:
 [https://repl.it/@ShahidKamal/tree-serializedeserialize-problem-asked-by-google](https://repl.it/@ShahidKamal/tree-serializedeserialize-problem-asked-by-google)
 2. Using built-in data structure and custom encoder and decoder. For example we can use dict to and write custom encoder to encode to string and decoder to convert back to `Node` object
 3. Using custom encoder/decoder for `Node` object. This is very difficult and requires one to have understanding  of lexer.
+
+##### Javascript Way:   
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA1MzkzOTksLTEzMzc1NzAyNjMsLT
-E3ODA4OTM4MDEsLTE0OTg2ODcwNDMsLTk3NTE5NzczNl19
+eyJoaXN0b3J5IjpbNjMzMzk3ODc4LC0xMzM3NTcwMjYzLC0xNz
+gwODkzODAxLC0xNDk4Njg3MDQzLC05NzUxOTc3MzZdfQ==
 -->
