@@ -13,6 +13,7 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 **Solution:**
 1. [jsbin](https://jsbin.com/kidixuf/edit?js,console)
 2. [jsben.ch](http://jsben.ch/rujQZ)
+3. [gist.github.com](https://gist.github.com/d89f6f91f34f3f752e7f13dd99ce81e5)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA3MTQ0MzUsLTk3NTE5NzczNl19
+eyJoaXN0b3J5IjpbLTE0OTg2ODcwNDMsLTk3NTE5NzczNl19
 -->
