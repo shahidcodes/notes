@@ -14,6 +14,26 @@ For example, if our input was `[1, 2, 3, 4, 5]`, the expected output would be `[
 1. [jsbin](https://jsbin.com/kidixuf/edit?js,console)
 2. [jsben.ch](http://jsben.ch/rujQZ)
 3. [gist.github.com](https://gist.github.com/d89f6f91f34f3f752e7f13dd99ce81e5)
+
+#### 3. Given the root to a binary tree, implement  `serialize(root)`, which serializes the tree into a string, and  `deserialize(s)`, which deserializes the string back into the tree.
+
+For example, given the following  `Node`  class
+```python
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+```
+
+The following test should pass:
+
+```
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg2ODcwNDMsLTk3NTE5NzczNl19
+eyJoaXN0b3J5IjpbOTA0NjgwNTY2LC0xNDk4Njg3MDQzLC05Nz
+UxOTc3MzZdfQ==
 -->
