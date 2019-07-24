@@ -26,14 +26,16 @@ class Node:
         self.right = right
 
 ```
-
 The following test should pass:
-
-```
+```python
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
+**Solution:**
+We can solve it two ways: 
+1. Using build-in data str
+[https://repl.it/@ShahidKamal/tree-serializedeserialize-problem-asked-by-google](https://repl.it/@ShahidKamal/tree-serializedeserialize-problem-asked-by-google)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0NjgwNTY2LC0xNDk4Njg3MDQzLC05Nz
-UxOTc3MzZdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQ2NDYyMzYsLTE0OTg2ODcwNDMsLT
+k3NTE5NzczNl19
 -->
